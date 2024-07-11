@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Overview</title>
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+  <body>
+    <div class="home-container">
+      <header>
+        <img src="Images/wraper.png" alt="Game overview" class="w-100" />
+      </header>
+      <nav
+        class="navbar navbar-expand-lg sticky-top rounded-4 col-md-9 mx-auto"
+      >
+        <div class="container-fluid">
+          <div
+            class="logo d-flex justify-content-center align-items-center gap-2"
+          >
+            <img src="Images/logo-sm.png" alt="game logo" />
+            <h1>GAME REVIEWS</h1>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" data-category="mmorpg">MMORPG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-category="shooter">SHOOTER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-category="sailing">SAILING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-category="permadeath">PERMADEATH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-category="superhero">SUPERHERO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-category="pixel">PIXEL</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <section class="main-home">
+          <div class="container my-5">
+            <div class="row g-4 home"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div class="details d-none"></div>
+    <div class="loading d-none">
+      <span class="loader"></span>
+    </div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js" type="module"></script>
+  </body>
+</html>
